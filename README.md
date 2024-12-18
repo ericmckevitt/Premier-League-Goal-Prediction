@@ -16,14 +16,14 @@ A machine learning project to predict whether a Premier League player will score
 
 1. Clone the repository:
 
-```
+```bash
 git clone https://github.com/ericmckevitt/Premier-League-Performance-Prediction.git
-cd premier-league-performance-prediction
+cd Premier-League-Performance-Prediction
 ```
 
 2. Install the required Python dependencies:
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
@@ -38,3 +38,11 @@ pip install -r requirements.txt
 
 -   Run the `prediction.ipynb` notebook to train a series of machine learning models that make iterative improvements upon one another.
 -   The notebook demonstrates step-by-step improvements to model performance, with a focus on accurate goal predictions for rare events.
+
+## Results
+
+-   Final Random Forest Classifier:
+    -   Accuracy: 96% for both “scored” and “not scored” classes.
+    -   Improved recall for minority class through SMOTE and threshold optimization.
+-   Key Predictors:
+    -   Progressive carries, dribble attempts, days since last match, and rolling averages of goals scored.
