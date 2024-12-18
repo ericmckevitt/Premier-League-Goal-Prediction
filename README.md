@@ -42,7 +42,9 @@ pip install -r requirements.txt
 ## Results
 
 -   Final Random Forest Classifier:
-    -   Accuracy: 96% for both “scored” and “not scored” classes.
+    -   Class-accuracy: 96% for both “scored” and “not scored” classes.
     -   Improved recall for minority class through SMOTE and threshold optimization.
 -   Key Predictors:
     -   Progressive carries, dribble attempts, days since last match, and rolling averages of goals scored.
+
+![Final Model Confusion Matrix](img/final_model.png)
