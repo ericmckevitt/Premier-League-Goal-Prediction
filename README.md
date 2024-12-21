@@ -18,7 +18,7 @@ A machine learning project to predict whether a Premier League player will score
 
 ```bash
 git clone https://github.com/ericmckevitt/Premier-League-Performance-Prediction.git
-cd Premier-League-Performance-Prediction
+cd Premier-League-Goal-Prediction
 ```
 
 2. Install the required Python dependencies:
@@ -47,7 +47,6 @@ pip install -r requirements.txt
 -   Key Predictors:
     -   Progressive carries, dribble attempts, days since last match, and rolling averages of goals scored.
 
-<!-- ![Final Model Confusion Matrix](img/final_model.png) -->
 <div align="center">
     <img src="img/final_model.png" alt="Final Model Confusion Matrix">
 </div>
