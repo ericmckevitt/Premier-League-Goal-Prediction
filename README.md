@@ -47,4 +47,7 @@ pip install -r requirements.txt
 -   Key Predictors:
     -   Progressive carries, dribble attempts, days since last match, and rolling averages of goals scored.
 
-![Final Model Confusion Matrix](img/final_model.png)
+<!-- ![Final Model Confusion Matrix](img/final_model.png) -->
+<div align="center">
+    <img src="img/final_model.png" alt="Final Model Confusion Matrix">
+</div>
